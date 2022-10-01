@@ -58,17 +58,18 @@ h1 {
     flex-direction: column;
     width: 12rem auto;
     height: 12rem;
-    background: #fff;
+    
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     border-radius: 10px;
     margin: auto;
     overflow: hidden;
 }
 
+/* Efeito hover nos cards */
 .card:hover {
     transform: translateY(-10px);
     box-shadow: #301C59;
-    background-color: #62C193;
+    background-color: #95cfb3;
 }
 
 .card--avatar {
@@ -78,7 +79,7 @@ h1 {
 }
 
 .card--title {
-    color: #222;
+    color: #20d67e;
     font-weight: 700;
     text-transform: capitalize;
     font-size: 1.1rem;
@@ -95,4 +96,10 @@ h1 {
 
 footer {
     padding-top: 5%;
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+}
+
+footer img {
+    padding-top: 2%;
 }
