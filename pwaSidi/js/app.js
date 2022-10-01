@@ -1,9 +1,9 @@
 const container = document.querySelector(".container")
 const fotos =  [
-    { name: "Agendamento", image: "images/agendamento.png" },
-    { name: "Check-In", image: "images/checkin.png" },
-    { name: "Minhas Reservas", image: "images/minhasreservas.png" }, 
-    { name: "Meu Perfil", image: "images/perfil.png" }
+    { name: "Agendamento", image: "images/calendar.png" },
+    { name: "Check-In", image: "images/place.png" },
+    { name: "Minhas Reservas", image: "images/book.png" }, 
+    { name: "Meu Perfil", image: "images/user.png" }
 ]
 
 const showFotos = () => {
