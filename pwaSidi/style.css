@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #301C59;
+    background-image: linear-gradient(to bottom, #301C59, #8674B0);
     font-family: "Nunito", sans-serif;
     font-size: 1rem;
 }
